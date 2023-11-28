@@ -4,16 +4,14 @@ import { collection, getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDaZp6oPkzgha0gK5Sr9OOrUjdrJryqC7g",
-  authDomain: "v-call-2a7f9.firebaseapp.com",
-  projectId: "v-call-2a7f9",
-  storageBucket: "v-call-2a7f9.appspot.com",
-  messagingSenderId: "474751813156",
-  appId: "1:474751813156:web:7ee05270f819e2c9fcbab1",
-  measurementId: "G-62JT61GS0K"
+  apiKey: "AIzaSyD0xpsR1ZUN5Gnwtk3At_vYCWX6PaEQmm8",
+  authDomain: "vcall-8ede6.firebaseapp.com",
+  projectId: "vcall-8ede6",
+  storageBucket: "vcall-8ede6.appspot.com",
+  messagingSenderId: "10804337258",
+  appId: "1:10804337258:web:82e0b1ecdfbcda15284813",
+  measurementId: "G-GDFRXWS1GZ"
 };
-
-
 
 const app = initializeApp(firebaseConfig);
 export const firebaseAuth = getAuth(app);

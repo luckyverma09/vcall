@@ -112,7 +112,7 @@ import {
                   iconType="moon"
                   display="fill"
                   size="s"
-                  color="ghost"
+                  color="warning"
                   aria-label="theme-button-dark"
                 />
               )}
@@ -167,7 +167,7 @@ import {
                   iconType="moon"
                   display="fill"
                   size="s"
-                  color="ghost"
+                  color="accent"
                   aria-label="theme-button-dark"
                 />
               )}
