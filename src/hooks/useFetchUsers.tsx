@@ -6,7 +6,7 @@ import { UserType } from "../utils/types";
 
 function useFetchUsers() {
   const [users, setUsers] = useState<Array<UserType>>([]);
-  const uid = useAppSelector((zoomApp) => zoomApp.auth.userInfo?.uid);
+  const uid: string | undefined = useAppSelector((zoomApp) => zoomApp.auth.userInfo?.uid);
 
   useEffect(() => {
     if (uid) {

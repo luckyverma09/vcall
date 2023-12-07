@@ -107,6 +107,7 @@ import {
                   onClick={copy}
                   display="base"
                   aria-label="meeting-copy"
+                  
                 />
               )}
             </EuiCopy>
