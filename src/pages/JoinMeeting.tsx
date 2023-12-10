@@ -91,8 +91,8 @@ export default function JoinMeeting() {
 
 const myMeeting = async (element: any) => {
   const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
-    471764000, // Replace with your app ID
-    "187a6af95307563ddb0546390c559c51", // Replace with your server secret
+    123, // Replace with your app ID
+    "xxxxx", // Replace with your server secret
     params.id as string,
     user?.uid ? user.uid : generateMeetingID(),
     user?.displayName ? user.displayName : generateMeetingID()

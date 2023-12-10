@@ -4,13 +4,13 @@ import { collection, getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD0xpsR1ZUN5Gnwtk3At_vYCWX6PaEQmm8",
+  apiKey: "xxx",
   authDomain: "vcall-8ede6.firebaseapp.com",
   projectId: "vcall-8ede6",
   storageBucket: "vcall-8ede6.appspot.com",
-  messagingSenderId: "10804337258",
+  messagingSenderId: "xxx",
   appId: "1:10804337258:web:82e0b1ecdfbcda15284813",
-  measurementId: "G-GDFRXWS1GZ"
+  measurementId: "xxx"
 };
 
 const app = initializeApp(firebaseConfig);
